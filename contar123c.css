@@ -121,7 +121,7 @@ h1 {
   }
 
   .game-image {
-    width: calc(100px - 10px); /* Ajusta el valor según tus necesidades */
+    width: 75%; /* Ajusta el valor según tus necesidades */
   }
 
   .guess-button {
