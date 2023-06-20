@@ -115,7 +115,8 @@ h1 {
 /* Nuevo código para redimensionar imágenes en dispositivos móviles */
 
 @media (max-width: 768px) {
-  .container {
+  .container,
+  .container2 {
     max-width: 100%; /* Ancho completo en dispositivos móviles */
   }
 
