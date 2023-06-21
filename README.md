@@ -2,6 +2,8 @@
 
 ![Juego de los dados](https://axelcotongutierrez.github.io/learningmathematicas/assets/images//posts/Contar3/jcontar3d.jpg)
 
+Dentro del blog: https://axelcotongutierrez.github.io/learningmathematicas/
+
 Juego para Infantil para aprender a contar hasta tres usando dados.
 
 Puedes probar el juego en esta url:
