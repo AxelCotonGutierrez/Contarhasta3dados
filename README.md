@@ -1,4 +1,7 @@
-# Contarhasta3dados
+# Contar hasta tres usando dados
+
+![Juego de los dados](https://axelcotongutierrez.github.io/learningmathematicas/assets/images//posts/Contar3/jcontar3d.jpg)
+
 Juego para Infantil para aprender a contar hasta tres usando dados.
 
 Puedes probar el juego en esta url:
