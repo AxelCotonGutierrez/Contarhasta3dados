@@ -1,6 +1,6 @@
 # Contar hasta tres usando dados
 
-![Juego de los dados](https://axelcotongutierrez.github.io/learningmathematicas/assets/images//posts/Contar3/jcontar3d.jpg)
+![Juego de los dados](https://axelcotongutierrez.github.io/learningmathematicas/assets/images//posts/02JContar3/jcontar3d.jpg)
 
 Dentro del blog: https://axelcotongutierrez.github.io/learningmathematicas/
 
