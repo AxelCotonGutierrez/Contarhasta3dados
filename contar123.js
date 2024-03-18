@@ -56,7 +56,7 @@ megaphoneIcon.addEventListener('click', () => playAudio(preguntaAudio));
       scoreElement.textContent = `\u00A1Fin!`;
 
       if (score === 5) {
-        scoreElement.textContent += ` \u00A1Felicidades, eres un/a campeón/a!`;
+        scoreElement.textContent += ` \u00A1Felicidades, lo has conseguido!`;
         scoreElement.style.color = "green";
       } else {
         scoreElement.textContent += ` \u00A1Vuelve a intentarlo!`;
