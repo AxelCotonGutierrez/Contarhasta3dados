@@ -1,4 +1,30 @@
 // Axel Cotón Gutiérrez Copyright 2023
+
+// Cargar archivos de audio desde la carpeta adecuada
+const preguntaAudio = new Audio('https://raw.githubusercontent.com/AxelCotonGutierrez/Contarhasta3dados/master/audio/Pregunta.mp3');
+const correctoAudio = new Audio('https://raw.githubusercontent.com/AxelCotonGutierrez/Contarhasta3dados/master/audio/Correcto.mp3');
+const incorrectoAudio = new Audio('https://raw.githubusercontent.com/AxelCotonGutierrez/Contarhasta3dados/master/audio/Incorrecto.mp3');
+const felicidadesAudio = new Audio('https://raw.githubusercontent.com/AxelCotonGutierrez/Contarhasta3dados/master/audio/Felicidades.mp3');
+const intentarAudio = new Audio('https://raw.githubusercontent.com/AxelCotonGutierrez/Contarhasta3dados/master/audio/Intentar.mp3');
+
+// Acceder al botón de silencio y al icono del megáfono en el DOM
+const soundControl = document.querySelector('#sound-control');
+const megaphoneIcon = document.querySelector('#megaphone-icon');
+
+// Función para reproducir audio si el sonido está activado
+function playAudio(audioElement) {
+  if (soundControl.checked) {
+    audioElement.play();
+  }
+}
+
+// Evento clic para el icono del megáfono para reproducir la pregunta en audio
+megaphoneIcon.addEventListener('click', () => playAudio(preguntaAudio));
+
+
+
+
+
   // Generar imágenes aleatorias
   const images = [
     "https://raw.githubusercontent.com/AxelCotonGutierrez/Contarhasta3dados/master/img/D6_1.svg.png",
