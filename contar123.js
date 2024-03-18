@@ -58,9 +58,11 @@ megaphoneIcon.addEventListener('click', () => playAudio(preguntaAudio));
       if (score === 5) {
         scoreElement.textContent += ` \u00A1Felicidades, lo has conseguido!`;
         scoreElement.style.color = "green";
+        playAudio(felicidadesAudio);
       } else {
         scoreElement.textContent += ` \u00A1Vuelve a intentarlo!`;
         scoreElement.style.color = "red";
+        playAudio(intentarAudio);
       }
 
       // Mostrar botón "Volver a jugar"
@@ -116,9 +118,11 @@ megaphoneIcon.addEventListener('click', () => playAudio(preguntaAudio));
       score++;
       resultElement.textContent = "\u00A1Correcto!";
       resultElement.style.color = "green";
+      playAudio(correctoAudio);
     } else {
       resultElement.textContent = `Incorrecto, el valor de la imagen era ${previousImageIndex + 1}.`;
       resultElement.style.color = "red";
+      playAudio(incorrectoAudio);
     }
 
     // Actualizar puntaje y generar la siguiente pregunta
