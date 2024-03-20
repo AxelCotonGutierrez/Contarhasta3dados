@@ -10,9 +10,13 @@ Puedes probar el juego en esta url:
 
 https://axelcotongutierrez.github.io/Contarhasta3dados/
 
+Para saber como se juega:
+
+https://youtu.be/FY1GXFyt8sQ?si=H694tTGugWmM8gTN
+
 Puedes ver la expliación el código aquí:
 
-https://www.youtube.com/watch?v=SnsgUxFuNHE
+https://youtu.be/SRH_XsvWb98?si=8oBNNTaQYVrqgSaj
 
 ¡Bienvenido al emocionante juego "Contando con Dados"! ¿Estás listo para poner a prueba tus habilidades de conteo mientras te diviertes con dados? Prepárate para desafiar tu mente y demostrar que eres capaz de contar hasta tres utilizando los dados.
 
